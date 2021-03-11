@@ -66,7 +66,7 @@ public class MyClass {
                 || password.contains("3333") || password.contains("4444")
                 || password.contains("5555") || password.contains("6666")
                 || password.contains("7777") || password.contains("8888")
-                || password.contains("9999"))) {
+                || password.contains("9999")) || password.contains("012")) {
             return false;
         }
 
