@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class MyClassTest {
 
-
+//https://github.com/MathiasH496/prog2-ss21-exercise1.git
     @Test
     void checkPassword_toSmall() {
         System.out.println("lenght1");
@@ -89,6 +89,8 @@ public class MyClassTest {
         Boolean actual = MyClass.password("1111passwort");
         Assertions.assertFalse(actual);
     }
+
+
 
 
 
